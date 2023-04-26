@@ -17,6 +17,7 @@
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
+  max-width: 496px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -33,6 +34,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .text-style-small {
   font-size: 20px;
@@ -40,15 +42,19 @@
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
+  margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .text-body {
   font-size: 16px;
   font-family: "Roboto";
   font-weight: 400;
+  margin-top: 24px;
+  display: block;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -65,7 +71,11 @@
   color: var(--color-navy-blue);
 }
 .button-text {
+  border: none;
+  min-width: 169px;
+  height: 56px;
   font-size: 16px;
+  display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -97,6 +107,7 @@
 }
 
 .text-style-m {
+  justify-content: center;
   font-size: 36px;
   font-family: "Roboto";
   color: var(--color-grey);
@@ -129,7 +140,8 @@
   font-size: 18px;
   line-height: 1.17;
   /* identical to box height, or 117% */
-
+  margin-top: 24px;
+  margin-left: 156px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -150,8 +162,7 @@
 }
 .studio-logo {
   width: 71px;
-  height: 21px;
-
+  height: 24px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -168,7 +179,7 @@
 }
 .studio-logo-footer {
   width: 71px;
-  height: 21px;
+  height: 24px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -187,12 +198,14 @@
 
 .dark-bg {
   background: var(--color-navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .effect {
   color: var(--color-white);
+  margin-bottom: 48px;
 }
-
 .button-f {
   cursor: pointer;
   background: var(--color-iris);
@@ -200,24 +213,20 @@
   border-radius: 4px;
   color: var(--color-white);
 }
-
 .color-h3 {
   color: var(--color-grey);
   background-color: var(--color-white);
+  gap: 24px;
 }
-
 .list {
   list-style: none;
 }
-
 .color-b {
   color: var(--color-slate);
 }
-
 .light-bg {
   background-color: var(--color-cloud);
 }
-
 .img-t {
   background-color: var(--color-white);
 }
@@ -256,7 +265,6 @@
   border-radius: 4px;
   background-color: var(--color-cloud);
 }
-
 .body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
@@ -268,19 +276,15 @@
 .adress {
   font-style: normal;
 }
-
 .color-a {
   color: var(--color-navy-blue);
 }
-
 .color-h2 {
   color: var(--color-grey);
 }
-
 .color-our-team {
   background-color: var(--color-white);
 }
-
 .medium-color {
   color: var(--color-grey);
 }
@@ -290,13 +294,6 @@
 .body-medium:hover {
   color: var(--color-ocean);
 }
-.text-body:hover {
-  background-color: var(--color-ocean);
-}
-.text-body:focus {
-  background-color: var(--color-ocean);
-}
-
 .button-f:hover {
   background-color: var(--color-ocean);
 }
@@ -311,7 +308,6 @@
   color: var(--color-white);
   background-color: #404bbf;
 }
-
 .text-port {
   font-size: 20px;
 
@@ -322,7 +318,6 @@
   color: var(--color-grey);
   text-transform: none;
 }
-
 .text-p {
   font-size: 16px;
   line-height: 1.5;
@@ -333,18 +328,76 @@
 .body-medium:focus {
   color: var(--color-ocean);
 }
-.body-medium:focus {
+.body-medium:hover {
   color: var(--color-ocean);
 }
 .sect-all {
   list-style: none;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .sect-color {
   color: var(--color-cloud);
 }
-.color-b:hover {
-  color: var(--color-ocean);
+.header {
+  box-sizing: border-box;
+  width: 1158px;
+  left: 0px;
+  top: 0px;
+  /* WHITE
+Header background, team card background
+*/
+  background: #ffffff;
+  /* CORNFLOWER */
+  border-bottom: 1px solid #e7e9fc;
 }
 .color-b:focus {
   color: var(--color-ocean);
+}
+.color-b:hover {
+  color: var(--color-ocean);
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+.img {
+  display: block;
+}
+.section-2 {
+  display: flex;
+}
+.doing {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
