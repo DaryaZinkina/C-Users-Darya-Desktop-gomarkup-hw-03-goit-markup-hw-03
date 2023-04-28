@@ -244,6 +244,7 @@
   background-color: var(--color-white);
   gap: 24px;
   list-style: none;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .list {
@@ -315,6 +316,7 @@
 }
 .color-a {
   color: var(--color-navy-blue);
+  padding: 24px 0;
 }
 .color-h2 {
   color: var(--color-grey);
@@ -489,9 +491,14 @@ p {
   margin-bottom: 8px;
 }
 .img-doing {
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .header-portf {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+.list-adress {
+  list-style: none;
+  padding: 24px 0;
 }
