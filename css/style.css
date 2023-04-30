@@ -18,12 +18,7 @@ img {
 ul {
   padding-left: 0%;
 }
-button {
-  border: 1px solid var(--color-cornflower);
-}
-a {
-  display: inline-block;
-}
+
 .text-style-big {
   font-size: 56px;
   font-family: "Roboto";
@@ -416,7 +411,6 @@ Header background, team card background
 }
 
 .container {
-  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -503,8 +497,8 @@ p {
   margin-bottom: 8px;
 }
 .img-doing {
-  width: calc((100% - 3 * 16px) / 3);
   display: flex;
+  gap: 24px;
 }
 .header-portf {
   display: flex;
