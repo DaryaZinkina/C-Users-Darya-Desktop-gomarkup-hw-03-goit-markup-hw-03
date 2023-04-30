@@ -249,7 +249,6 @@ ul {
 .sect-2 {
   color: var(--color-grey);
   background-color: var(--color-white);
-  gap: 24px;
   list-style: none;
   width: calc((100% - 3 * 24px) / 4);
 }
