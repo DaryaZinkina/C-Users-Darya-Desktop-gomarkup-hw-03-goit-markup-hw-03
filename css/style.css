@@ -21,6 +21,9 @@ ul {
 button {
   border: 1px solid var(--color-cornflower);
 }
+a {
+  display: inline-block;
+}
 .text-style-big {
   font-size: 56px;
   font-family: "Roboto";
