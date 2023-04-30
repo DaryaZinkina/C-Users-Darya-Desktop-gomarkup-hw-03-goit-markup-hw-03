@@ -409,6 +409,7 @@ Header background, team card background
 }
 
 .container {
+  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -506,10 +507,4 @@ p {
 .list-adress {
   list-style: none;
   padding: 24px 0;
-}
-.container-port {
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
