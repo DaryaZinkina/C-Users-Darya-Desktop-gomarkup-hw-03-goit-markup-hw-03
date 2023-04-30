@@ -445,7 +445,7 @@ p {
 .doing {
   display: flex;
   list-style: none;
-  width: calc((100% - 48px) / 3);
+
   gap: 24px;
 }
 .section-studio-all {
@@ -499,6 +499,7 @@ p {
 .img-doing {
   display: flex;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 .header-portf {
   display: flex;
