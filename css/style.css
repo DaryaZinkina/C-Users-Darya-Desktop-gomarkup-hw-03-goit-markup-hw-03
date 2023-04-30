@@ -352,11 +352,13 @@ ul {
   background-color: var(--color-ocean);
 }
 .button-all:hover {
+  border: 1px solid var(--color-cornflower);
   border: 1px solid transparent;
   color: var(--color-white);
   background-color: #404bbf;
 }
 .button-all:focus {
+  border: 1px solid var(--color-cornflower);
   border: 1px solid transparent;
   color: var(--color-white);
   background-color: #404bbf;
@@ -509,4 +511,7 @@ p {
 .list-adress {
   list-style: none;
   padding: 24px 0;
+}
+.portfolio {
+  display: flex;
 }
