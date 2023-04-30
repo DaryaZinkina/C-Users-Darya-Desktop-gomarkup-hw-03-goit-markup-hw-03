@@ -246,7 +246,7 @@ ul {
   border-radius: 4px;
   color: var(--color-white);
 }
-.sect-2 {
+.sect {
   color: var(--color-grey);
   background-color: var(--color-white);
   list-style: none;
