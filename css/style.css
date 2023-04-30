@@ -18,6 +18,9 @@ img {
 ul {
   padding-left: 0%;
 }
+button {
+  border: 1px solid var(--color-cornflower);
+}
 .text-style-big {
   font-size: 56px;
   font-family: "Roboto";
@@ -279,6 +282,7 @@ ul {
   color: var(--color-cloud);
 }
 .studio {
+  display: inline-block;
   color: var(--color-cloud);
 }
 .button-all {
