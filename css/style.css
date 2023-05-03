@@ -82,6 +82,8 @@ ul {
   color: var(--color-navy-blue);
 }
 .button-text {
+  min-width: 169px;
+  height: 56px;
   margin-left: auto;
   margin-right: auto;
   border: none;
@@ -420,6 +422,7 @@ p {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-container {
